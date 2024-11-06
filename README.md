@@ -63,7 +63,7 @@ This command will display a color gradient from red to blue in 10 steps in your 
 
 ## Example Outputs
 
-![example]("https://github.com/V-Karch/gradient-maker/blob/main/images/Example.png?raw=true)
+![Example Image](https://raw.githubusercontent.com/V-Karch/gradient-maker/refs/heads/main/images/Example.png)
 
 
 Each line shows a color block followed by the corresponding hex code.
