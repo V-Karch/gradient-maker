@@ -60,7 +60,7 @@ fn color_gradient(
 fn print_color_in_terminal(hex: &str, rgb: (u8, u8, u8)) {
     // Display a colored block followed by the hex color code
     let (r, g, b) = rgb;
-    println!("\x1b[48;2;{};{};{}m  \x1b[0m {}", r, g, b, hex);
+    println!("\x1b[48;2;{};{};{}m  \x1b[0m {} ({}, {}, {})", r, g, b, hex, r, g, b);
 }
 
 fn main() {
